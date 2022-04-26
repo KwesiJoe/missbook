@@ -1,40 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@600&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #f0f2f5;
-}
-#main {
-	display: inline-flex;
-}
-
-#left{
-	padding-bottom: 112px;
-    padding-top: 72px;
-}
-
-#right {
-	width: 50rem;
-	height: 700px;
-	margin: 20px 0px 0px 20px;
+	background-image: url("../images/book-min.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Barlow';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.field {
-	border-radius: 6px;
-	font-size: 17px;
-    width: 364px;
-	text-align: left;
-	display: inline-block;
-    margin: 4px;
-    padding: 6px 0;
-	border: 1px solid #dddfe2;
-
-}
-
-input:focus {
-	border-color: #7F63F4;
-    box-shadow: 0 0 0 2px #e7f3ff;
-    caret-color: #7F63F4;
-	outline: none;
-}
