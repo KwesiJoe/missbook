@@ -1,0 +1,68 @@
+#birthday{
+    display: flex;
+    justify-content: space-between;
+    width: 364px;;
+} 
+
+#gender{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 25px;
+    width: 364px;;
+}
+
+.birthday {
+    width: 115px;
+    height: 26px;
+    text-align: initial;
+    border: 1px solid #dddfe2;
+    border-radius: 30px;
+    padding: 0 20px 0 8px;
+}
+
+.gender {
+    width: 115px;
+    text-align: initial;
+    border: 1px solid #dddfe2;
+    border-radius: 30px;
+    line-height: 26px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label {
+    color: #606770;
+    text-align: initial;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+#signup {
+	border-radius: 30px;
+	font-size: 17px;
+    width: 364px;
+	text-align: center;
+	display: inline-block;
+    margin: 9px;
+    padding: 6px 0;
+	border: 1px solid #dddfe2;
+	background: #a077bb;
+    border-color: #a077bb;
+    color: #fff;
+}
+
+#signup:hover {
+    background: #FFF;
+    border-color: #a077bb;
+    color: #a077bb;
+    cursor: pointer;
+}
+
+#signin{
+    font-size: 17px;
+    width: 300px;
+	border: 0;
+    color: #a077bb;
+}
